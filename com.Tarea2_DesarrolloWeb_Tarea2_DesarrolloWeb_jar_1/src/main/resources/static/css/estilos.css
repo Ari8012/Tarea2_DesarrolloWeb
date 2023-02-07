@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Encabezado{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: linen;
+    color: black;
+    text-align: center;
+}
+#Encabezado h1{
+    display: inline;
+}
+
+#Menu{
+    position: absolute;
+    top: 8%;
+    left: 0%;
+    height: 4%;
+    width: 100%;
+    background-color: darksalmon;
+    color: black;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 5000px;
+    margin: 0 auto;
+
+}
+
+#BarraLateral{
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    height: 81%;
+    width: 20%;
+    background-color:#d7b7b7;
+    color: black;
+    padding-left: 15px;
+    overflow: auto;
+}
+
+
+#BarraLateral a:hover{
+    color:#9b6b6b;
+}
+.Titulo{
+    color:maroon;
+}
+.titulo{
+    color:#660066;
+    padding-right: 20px;
+}
+
+#contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color:linen;
+    color: black;
+    overflow: auto;
+    padding-left: 8px;
+
+}
+#Contenido{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color:linen;
+    color: black;
+    overflow: auto;
+    padding-left: 15px;
+}
+
+#PiePagina{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 7%;
+    width: 100%;
+    background-color: darksalmon;
+    color: black;
+    text-align: center;
+}
+
+.Direccion{
+    display: inline;
+}
+
+
+
+
+
